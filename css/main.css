@@ -14,6 +14,11 @@
   src: url('../fonts/poppins/Poppins-Bold.ttf'); 
 }
 
+@font-face {
+  font-family: Poppins-ExtraBoldItalic;
+  src: url('../fonts/poppins/Poppins-ExtraBoldItalic.ttf');
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 * {
@@ -90,16 +95,23 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
 
+.update {
+  font-family: Poppins-ExtraBoldItalic;
+  font-size: 40px;
+  color: #808080;
+  text-align: center;
+}
+
 .limiter {
+  min-height: 100vh;
   width: 100%;
   margin: 0 auto;
+  background: #c4d3f6;
+  padding: 5%;
 }
 
 .container-table100 {
   width: 100%;
-  min-height: 100vh;
-  background: #c4d3f6;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
